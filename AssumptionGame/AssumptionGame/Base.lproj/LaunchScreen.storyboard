@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="232854.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="u7a-fu-O4I">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FUN2SH" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2O0-tW-tWU">
+                                <rect key="frame" x="102.5" y="155" width="170.5" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="iZF-fd-E1B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="41"/>
+                                <color key="textColor" red="0.2939181857638889" green="0.11235894097222222" blue="0.94072808159722221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="0.76581228595890416" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="32468-7-smurfs-photo.png_600x600.png" translatesAutoresizingMaskIntoConstraints="NO" id="zaW-SR-g0h">
+                                <rect key="frame" x="0.0" y="292" width="375" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.38783094618055558" green="0.75431315104166663" blue="0.96625434027777779" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u7a-fu-O4I" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="5ca-dC-qmA"/>
+                            <constraint firstItem="zaW-SR-g0h" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="86O-vo-PWM"/>
+                            <constraint firstItem="u7a-fu-O4I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9qs-pl-A1Q"/>
+                            <constraint firstItem="u7a-fu-O4I" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DmW-s9-5k6"/>
+                            <constraint firstItem="2O0-tW-tWU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="135" id="Kee-Ut-Qr4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zaW-SR-g0h" secondAttribute="bottom" id="M5c-Em-MqQ"/>
+                            <constraint firstItem="zaW-SR-g0h" firstAttribute="top" secondItem="2O0-tW-tWU" secondAttribute="bottom" constant="46" id="T5K-Gy-A86"/>
+                            <constraint firstItem="zaW-SR-g0h" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="V7C-an-h4P"/>
+                            <constraint firstItem="u7a-fu-O4I" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rqs-W9-bur"/>
+                            <constraint firstItem="2O0-tW-tWU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tSr-Zr-4Cc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="232854.jpg" width="1920" height="1200"/>
+        <image name="32468-7-smurfs-photo.png_600x600.png" width="600" height="600"/>
+    </resources>
+</document>
