@@ -29,6 +29,11 @@
 		B8A3F77622957283008195D5 /* coollogo_com-151821077.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A3F77522957282008195D5 /* coollogo_com-151821077.png */; };
 		B8A3F77822957292008195D5 /* icons8-restart-48.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A3F77722957292008195D5 /* icons8-restart-48.png */; };
 		B8A3F77A229572AE008195D5 /* coollogo_com-151821077.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A3F779229572AE008195D5 /* coollogo_com-151821077.png */; };
+		B8B356E822B1154700266611 /* ExplanationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B356E722B1154700266611 /* ExplanationVC.swift */; };
+		B8C71B1F22B39EC000BA4B0E /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B1E22B39EC000BA4B0E /* StartVC.swift */; };
+		B8C71B2122B39F3300BA4B0E /* startCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B2022B39F3300BA4B0E /* startCell.swift */; };
+		B8C71B2322B3A15F00BA4B0E /* tableCreationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B2222B3A15F00BA4B0E /* tableCreationVC.swift */; };
+		B8C71B2522B3A3DB00BA4B0E /* TableGenerateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B2422B3A3DB00BA4B0E /* TableGenerateVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +61,11 @@
 		B8A3F77522957282008195D5 /* coollogo_com-151821077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coollogo_com-151821077.png"; path = "graphics/coollogo_com-151821077.png"; sourceTree = SOURCE_ROOT; };
 		B8A3F77722957292008195D5 /* icons8-restart-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-restart-48.png"; path = "graphics/icons8-restart-48.png"; sourceTree = SOURCE_ROOT; };
 		B8A3F779229572AE008195D5 /* coollogo_com-151821077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coollogo_com-151821077.png"; path = "graphics/coollogo_com-151821077.png"; sourceTree = SOURCE_ROOT; };
+		B8B356E722B1154700266611 /* ExplanationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationVC.swift; sourceTree = "<group>"; };
+		B8C71B1E22B39EC000BA4B0E /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		B8C71B2022B39F3300BA4B0E /* startCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startCell.swift; sourceTree = "<group>"; };
+		B8C71B2222B3A15F00BA4B0E /* tableCreationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableCreationVC.swift; sourceTree = "<group>"; };
+		B8C71B2422B3A3DB00BA4B0E /* TableGenerateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableGenerateVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,12 @@
 				1907DFCD20D8E49F00AEE141 /* ViewController.swift */,
 				1907DFCF20D8E49F00AEE141 /* Main.storyboard */,
 				190F82E320D92560006701E4 /* answerViewController.swift */,
+				B8C71B2222B3A15F00BA4B0E /* tableCreationVC.swift */,
+				B8C71B2422B3A3DB00BA4B0E /* TableGenerateVC.swift */,
+				B8B356E722B1154700266611 /* ExplanationVC.swift */,
+				B8C71B2022B39F3300BA4B0E /* startCell.swift */,
 				1907DFF620D8F84200AEE141 /* homeViewController.swift */,
+				B8C71B1E22B39EC000BA4B0E /* StartVC.swift */,
 				1907DFD220D8E4A600AEE141 /* Assets.xcassets */,
 				1907DFD420D8E4A600AEE141 /* LaunchScreen.storyboard */,
 				1907DFD720D8E4A600AEE141 /* Info.plist */,
@@ -223,9 +238,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				190F82E420D92560006701E4 /* answerViewController.swift in Sources */,
+				B8B356E822B1154700266611 /* ExplanationVC.swift in Sources */,
 				1907DFCE20D8E49F00AEE141 /* ViewController.swift in Sources */,
+				B8C71B2522B3A3DB00BA4B0E /* TableGenerateVC.swift in Sources */,
 				1907DFF720D8F84200AEE141 /* homeViewController.swift in Sources */,
 				1907DFCC20D8E49F00AEE141 /* AppDelegate.swift in Sources */,
+				B8C71B2122B39F3300BA4B0E /* startCell.swift in Sources */,
+				B8C71B2322B3A15F00BA4B0E /* tableCreationVC.swift in Sources */,
+				B8C71B1F22B39EC000BA4B0E /* StartVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
