@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TermsVC: UIViewController {
+class TermsVC: UIViewController,UIWebViewDelegate {
 
     @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {

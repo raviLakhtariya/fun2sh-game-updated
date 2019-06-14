@@ -36,6 +36,7 @@
 		B8C71B2522B3A3DB00BA4B0E /* TableGenerateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B2422B3A3DB00BA4B0E /* TableGenerateVC.swift */; };
 		B8C71B2722B3A77600BA4B0E /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B2622B3A77600BA4B0E /* TermsVC.swift */; };
 		B8C71B2922B3A81B00BA4B0E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B2822B3A81B00BA4B0E /* Constants.swift */; };
+		B8C71B2B22B3AAE700BA4B0E /* SendMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C71B2A22B3AAE700BA4B0E /* SendMailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		B8C71B2422B3A3DB00BA4B0E /* TableGenerateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableGenerateVC.swift; sourceTree = "<group>"; };
 		B8C71B2622B3A77600BA4B0E /* TermsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
 		B8C71B2822B3A81B00BA4B0E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B8C71B2A22B3AAE700BA4B0E /* SendMailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				1907DFCB20D8E49F00AEE141 /* AppDelegate.swift */,
 				1907DFCD20D8E49F00AEE141 /* ViewController.swift */,
 				1907DFCF20D8E49F00AEE141 /* Main.storyboard */,
+				B8C71B2A22B3AAE700BA4B0E /* SendMailVC.swift */,
 				190F82E320D92560006701E4 /* answerViewController.swift */,
 				B8C71B2222B3A15F00BA4B0E /* tableCreationVC.swift */,
 				B8C71B2422B3A3DB00BA4B0E /* TableGenerateVC.swift */,
@@ -252,6 +255,7 @@
 				1907DFCC20D8E49F00AEE141 /* AppDelegate.swift in Sources */,
 				B8C71B2122B39F3300BA4B0E /* startCell.swift in Sources */,
 				B8C71B2322B3A15F00BA4B0E /* tableCreationVC.swift in Sources */,
+				B8C71B2B22B3AAE700BA4B0E /* SendMailVC.swift in Sources */,
 				B8C71B2722B3A77600BA4B0E /* TermsVC.swift in Sources */,
 				B8C71B1F22B39EC000BA4B0E /* StartVC.swift in Sources */,
 			);
