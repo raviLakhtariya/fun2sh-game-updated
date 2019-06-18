@@ -12,7 +12,7 @@ class StartVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSou
 
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var topview: UIView!
-    var arrayValue : [String] = ["Fun2sh","Table Creation","Mathematics","Terms & Conditions","Send Mail"]
+    var arrayValue : [String] = ["Fun2sh","Table Creation","Terms & Conditions","Send Mail"]
     override func viewDidLoad() {
         super.viewDidLoad()
 

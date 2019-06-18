@@ -8,12 +8,19 @@
 
 import UIKit
 
-class ExplanationVC: UIViewController {
+class ExplanationVC: UIViewController,UIWebViewDelegate {
 
+    @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    func HtmlCode(){
+        let html = """
+            <h3>Fun2sh</h3>
+            
+"""
     }
     
 

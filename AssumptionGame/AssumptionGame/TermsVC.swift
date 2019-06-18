@@ -28,15 +28,4 @@ class TermsVC: UIViewController,UIWebViewDelegate {
         let request = NSURLRequest(url: url! as URL);
         webView.loadRequest(request as URLRequest);
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

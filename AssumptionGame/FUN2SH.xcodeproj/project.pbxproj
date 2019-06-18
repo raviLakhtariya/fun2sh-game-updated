@@ -26,6 +26,7 @@
 		19D6A71420D90FCE00A1DC59 /* arrow-pointing-to-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 19D6A70920D90FCB00A1DC59 /* arrow-pointing-to-right.png */; };
 		19D6A71520D90FCE00A1DC59 /* wallpaper2you_374638.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19D6A70A20D90FCC00A1DC59 /* wallpaper2you_374638.jpg */; };
 		19D6A71620D90FCE00A1DC59 /* 32561-5-smurfs-photos.png_600x600.png in Resources */ = {isa = PBXBuildFile; fileRef = 19D6A70B20D90FCD00A1DC59 /* 32561-5-smurfs-photos.png_600x600.png */; };
+		8FAA513922B6590E0018993D /* tableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA513822B6590E0018993D /* tableCell.swift */; };
 		B8A3F77622957283008195D5 /* coollogo_com-151821077.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A3F77522957282008195D5 /* coollogo_com-151821077.png */; };
 		B8A3F77822957292008195D5 /* icons8-restart-48.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A3F77722957292008195D5 /* icons8-restart-48.png */; };
 		B8A3F77A229572AE008195D5 /* coollogo_com-151821077.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A3F779229572AE008195D5 /* coollogo_com-151821077.png */; };
@@ -61,6 +62,7 @@
 		19D6A70920D90FCB00A1DC59 /* arrow-pointing-to-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-pointing-to-right.png"; sourceTree = "<group>"; };
 		19D6A70A20D90FCC00A1DC59 /* wallpaper2you_374638.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper2you_374638.jpg; sourceTree = "<group>"; };
 		19D6A70B20D90FCD00A1DC59 /* 32561-5-smurfs-photos.png_600x600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "32561-5-smurfs-photos.png_600x600.png"; sourceTree = "<group>"; };
+		8FAA513822B6590E0018993D /* tableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableCell.swift; sourceTree = "<group>"; };
 		B8A3F77522957282008195D5 /* coollogo_com-151821077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coollogo_com-151821077.png"; path = "graphics/coollogo_com-151821077.png"; sourceTree = SOURCE_ROOT; };
 		B8A3F77722957292008195D5 /* icons8-restart-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-restart-48.png"; path = "graphics/icons8-restart-48.png"; sourceTree = SOURCE_ROOT; };
 		B8A3F779229572AE008195D5 /* coollogo_com-151821077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coollogo_com-151821077.png"; path = "graphics/coollogo_com-151821077.png"; sourceTree = SOURCE_ROOT; };
@@ -125,6 +127,7 @@
 				B8B356E722B1154700266611 /* ExplanationVC.swift */,
 				B8C71B2822B3A81B00BA4B0E /* Constants.swift */,
 				B8C71B2022B39F3300BA4B0E /* startCell.swift */,
+				8FAA513822B6590E0018993D /* tableCell.swift */,
 				1907DFF620D8F84200AEE141 /* homeViewController.swift */,
 				B8C71B2622B3A77600BA4B0E /* TermsVC.swift */,
 				B8C71B1E22B39EC000BA4B0E /* StartVC.swift */,
@@ -248,6 +251,7 @@
 			files = (
 				190F82E420D92560006701E4 /* answerViewController.swift in Sources */,
 				B8C71B2922B3A81B00BA4B0E /* Constants.swift in Sources */,
+				8FAA513922B6590E0018993D /* tableCell.swift in Sources */,
 				B8B356E822B1154700266611 /* ExplanationVC.swift in Sources */,
 				1907DFCE20D8E49F00AEE141 /* ViewController.swift in Sources */,
 				B8C71B2522B3A3DB00BA4B0E /* TableGenerateVC.swift in Sources */,

@@ -112,28 +112,26 @@ class homeViewController: UIViewController {
     @objc func nextButtonTap(sender:UIButton){
         if valueInt == 0 {
             self.valueInt = 1
-         
             NextBtn.isHidden = true
             self.checkValue()
             self.callMethod()
-            
-            
         }
         else if valueInt == 1 {
-            self.valueInt = 2
             
+            self.valueInt = 2
             NextBtn.isHidden = true
             self.checkValue()
             self.callMethod()
-           
         }
         else if valueInt == 2 {
+            
             self.valueInt = 3
             NextBtn.isHidden = true
             self.checkValue()
             self.callMethod()
         }
         else if valueInt == 3 {
+            
             self.valueInt = 4
             NextBtn.isHidden = true
             self.checkValue()
@@ -152,9 +150,6 @@ class homeViewController: UIViewController {
      /*   else if valueInt == 5 {
             
         }*/
-        
-        
-        
         
     }
     func callMethod(){
